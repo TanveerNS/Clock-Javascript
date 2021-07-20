@@ -25,7 +25,7 @@ function convertion(val){
             var descrip = data['weather']['0']['description']
             var tempature = data['main']['temp']
             var wndspd = data['wind']['speed']
-
+            console.log('77');
             city.innerHTML=`City: ${nameval}`
             temp.innerHTML = `Temperature: ${ convertion(tempature)} C`
             description.innerHTML = `Conditions: ${descrip}`
